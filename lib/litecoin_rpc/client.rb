@@ -82,9 +82,7 @@ module LitecoinRPC
       if debug
         p "sending request to #{uri}, method: #{method}, args: #{args}" unless Rails.env.test?
       end
-      if Rails.env.test?
-        return "ok"
-      end
+ 
       response = http.request(request)
 
       if response.code == "403"
