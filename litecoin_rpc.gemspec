@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "litecoin_rpc"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Tim Kretschmer"]
   spec.email         = ["tim@krtschmr.de"]
   spec.description   = %q{connects to the LTC RPC}
